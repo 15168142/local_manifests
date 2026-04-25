@@ -14,15 +14,19 @@
           fetch="https://gitlab.com/johnmart19"
           revision="aosp-16" />
 
+  <remote name="168"
+          fetch="https://gitlab.com/15168142"
+          revision="clover-16" />
+
   <remote name="switchoff"
           fetch="https://github.com/swiitch-OFF-Lab" />
 
   <!-- alioth -->
-  <project path="device/xiaomi/alioth" name="android_device_xiaomi_alioth" remote="yasea" />
+  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="168" />
   <project path="vendor/xiaomi/alioth" name="android_vendor_xiaomi_alioth" remote="yasea" />
 
   <!-- 8250 -->
-  <project path="device/xiaomi/sm8250-common" name="android_device_xiaomi_sm8250-common" remote="yasea" />
+  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="168" />
   <project path="vendor/xiaomi/sm8250-common" name="android_vendor_xiaomi_sm8250-common" remote="yasea" />
   <project path="kernel/xiaomi/sm8250" name="android_kernel_xiaomi_sm8250" remote="yasea" revision="lineage-23.1" clone-depth="1" />
 
@@ -35,7 +39,9 @@
   <remove-project path="hardware/xiaomi" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="yasea" revision="lineage-23.1" />
   <remove-project path="packages/resources/devicesettings" />
-  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="johnmart" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="168" revision="lineage-23.2" />
   <project path="packages/apps/GameBar" name="android_packages_apps_GameBar" remote="yasea" />
+  <remove-project path="packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings-clover" remote="168" revision="16-qpr2" />
 
 </manifest>
