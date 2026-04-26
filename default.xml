@@ -15,11 +15,11 @@
           revision="aosp-16" />
 
   <remote name="168"
-          fetch="https://gitlab.com/15168142"
+          fetch="https://github.com/15168142"
           revision="clover-16" />
 
   <remote name="113"
-          fetch="https://gitlab.com/kvsnr113" />
+          fetch="https://github.com/kvsnr113" />
 
   <remote name="switchoff"
           fetch="https://github.com/swiitch-OFF-Lab" />
