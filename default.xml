@@ -39,7 +39,6 @@
 
   <!-- misc -->
   <project path="hardware/dolby" name="hardware_dolby" remote="switchoff" revision="sony-1.4" />
-  <remove-project path="hardware/xiaomi" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="yasea" revision="lineage-23.1" />
   <remove-project path="packages/resources/devicesettings" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="168" revision="lineage-23.2" />
