@@ -51,5 +51,7 @@
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity-clover" remote="168" revision="16-qpr2" />
   <remove-project path="system/core" />
   <project path="system/core" name="system_core-clover" remote="168" revision="16-qpr2" />
+  <remove-project path="frameworks/base" />
+  <project path="frameworks/base" name="frameworks_base-clover" remote="168" revision="16-qpr2" />
 
 </manifest>
