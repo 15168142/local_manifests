@@ -65,5 +65,7 @@
   <project path="frameworks/av" name="frameworks_av-clover" remote="168" revision="16-qpr2" />
   <remove-project path="frameworks/native" />
   <project path="frameworks/native" name="frameworks_native-clover" remote="168" revision="16-qpr2" />
+  <remove-project path="vendor/clover" />
+  <project path="vendor/clover" name="vendor_clover" remote="168" revision="16-qpr2" />
 
 </manifest>
