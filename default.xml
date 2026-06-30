@@ -41,7 +41,6 @@
   <!-- misc -->
   <project path="hardware/dolby" name="hardware_dolby" remote="switchoff" revision="Dolby-Vision-2.1" />
   <project path="packages/apps/DolbyUI" name="packages_apps_DolbyUI" remote="switchoff" revision="a" />
-  <remove-project path="hardware/xiaomi" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="yasea" />
 
 </manifest>
