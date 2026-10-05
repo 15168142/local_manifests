@@ -10,7 +10,7 @@
           fetch="https://gitlab.com/johnmart19"
           revision="aosp-17" />
 
-  <remote name="168"
+  <remote name="168local"
           fetch="https://github.com/15168142"
           revision="17" />
 
@@ -22,12 +22,12 @@
           fetch="https://github.com/swiitch-OFF-Lab" />
 
   <!-- alioth -->
-  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="168" />
-  <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="168" />
+  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="168local" />
+  <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="168local" />
 
   <!-- 8250 -->
-  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="168" />
-  <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="168" />
+  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="168local" />
+  <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="168local" />
   <project path="kernel/xiaomi/sm8250" name="android_kernel_xiaomi_sm8250" remote="LineageOS" clone-depth="1" />
 
   <!-- mi cam -->
@@ -37,6 +37,6 @@
   <!-- misc -->
   <project path="hardware/dolby" name="hardware_dolby" remote="switchoff" revision="sony-A17" />
   <project path="packages/apps/DolbyUI" name="packages_apps_DolbyUI" remote="switchoff" revision="aa" />
-  <project path="hardware/xiaomi" name="hardware_xiaomi-pos" remote="168" revision="seventeen" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi-pos" remote="168" />
 
 </manifest>
