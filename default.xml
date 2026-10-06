@@ -2,6 +2,10 @@
 <manifest>
 
   <!-- remotes -->
+  <remote name="yasea"
+          fetch="https://github.com/Tsaritsa-Prjkt"
+          revision="lineage-24.0" />
+
   <remote name="johnmart"
           fetch="https://github.com/PocoF3Releases"
           revision="aosp-17" />
@@ -36,6 +40,6 @@
 
   <!-- misc -->
   <project path="hardware/dolby" name="hardware_dolby" remote="switchoff" revision="sony-A17" />
-  <project path="hardware/xiaomi" name="hardware_xiaomi-pos" remote="168" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="yasea" />
 
 </manifest>
