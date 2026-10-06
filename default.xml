@@ -36,7 +36,6 @@
 
   <!-- misc -->
   <project path="hardware/dolby" name="hardware_dolby" remote="switchoff" revision="sony-A17" />
-  <project path="packages/apps/DolbyUI" name="packages_apps_DolbyUI" remote="switchoff" revision="aa" />
   <project path="hardware/xiaomi" name="hardware_xiaomi-pos" remote="168" />
 
 </manifest>
